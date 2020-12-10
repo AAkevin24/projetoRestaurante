@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./img/menu-restaurant-vintage-table.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial;
+    
+}
+input {
+    display: block;
+    height: 55px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.01);
+    color: white;
+    outline: none;
+}
+#body-form{
+    
+    width: 420px;
+    margin: 70px auto 0px auto;
+}
+#body-form h1{
+    padding: 20px;
+    text-align: center;
+    color: red;
+}
+a{
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+}
+.btn-sbmt{
+    background-color:red;
+    border: none;
+    cursor: pointer;
+}
+::-webkit-input-placeholder {
+    color: rgb(250, 0, 0);
+}
+
+.msg-sucesso{   
+    width: 420px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: green;
+    border: 1px solid yellowgreen;
+}
+
+.msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: red;
+    border: 1px solid yellowgreen;
+}
